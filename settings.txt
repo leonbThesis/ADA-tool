@@ -1,0 +1,8 @@
+* DO NOT MODIFY MANUALLY, ONLY VIA THE ADA-TOOL SETTINGS BUTTON (main window, bottom right corner)
+*
+* Minimum size difference (bytes) needed for simple analysis to recognize anti-vm (default = 100)
+100
+* Search depth for syscall analysis (default = 3)
+3
+* Percentage of syscalls that can be different before total divergence is declared (default = 20)
+20

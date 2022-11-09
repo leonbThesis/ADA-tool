@@ -1,0 +1,12 @@
+This file contains all code sources, that were used or adapted during the creation of this program.
+All references are also mentioned in the corresponding source code files.
+
+
+ *  https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html
+ *  https://docs.oracle.com/javase/7/docs/api/javax/swing/text/StyledDocument.html
+ *  https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+ *  https://docs.oracle.com/javase/tutorial/uiswing/components/table.html
+ *  https://docs.oracle.com/javase/7/docs/api/javax/swing/table/DefaultTableModel.html
+ *  https://docs.oracle.com/javase/tutorial/essential/io/index.html
+ *  https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html
+ *  https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html
