@@ -403,8 +403,8 @@ public class FullAnalysisProcessor {
         if(percent > (double)set.maxDivSysCallsPercentage/100){
             return new Object[]{"Syscall divergence (limit exceeded)!","Syscall divergence begins at: [ "+resultTotal.get(0)+" ] for total overview increase maxDivSysCallsPercentage",30,uniqueSyscalls};
         }
-        
-        return new Object[]{"Syscall Mismatch!","Syscalls, that are variant-unique: "+resultTotal.toString(),30,uniqueSyscalls};
+        /*Also replace ',' in List with ';' because ',' is bad for csv*/
+        return new Object[]{"Syscall Mismatch!","Syscalls that are variant-unique: "+resultTotal.toString().replaceAll(",",";"),30,uniqueSyscalls};
        
     }
 }
